@@ -1,0 +1,40 @@
+**1. What is Git?**  
+Git is a distributed version control system that helps developers track changes in their code, collaborate with others, and manage their project history. It allows users to commit code changes, branch off for new features, and merge branches back together.
+
+**2. What do you understand by the term ‘Version Control System’?**  
+A Version Control System (VCS) is a tool that helps manage changes to source code or other files over time. It tracks every modification made and allows multiple developers to work on a project simultaneously without overwriting each other’s work. Examples include Git, Subversion (SVN), and Mercurial.
+
+**3. What is GitHub?**  
+GitHub is a web-based platform for hosting Git repositories. It provides collaboration features like pull requests, issue tracking, and code reviews. GitHub is widely used for open-source and private projects and integrates seamlessly with Git.
+
+**4. Mention some popular Git hosting services.**  
+Popular Git hosting services include:
+- **GitHub**
+- **GitLab**
+- **Bitbucket**
+- **SourceForge**
+- **AWS CodeCommit**
+
+**5. Different types of version control systems?**  
+There are mainly three types of version control systems:
+- **Local Version Control System**: Tracks changes on a single computer.
+- **Centralized Version Control System (CVCS)**: Uses a central server to store all versions of a project (e.g., SVN, CVS).
+- **Distributed Version Control System (DVCS)**: Every user has a complete copy of the repository, allowing for offline work and more flexible workflows (e.g., Git, Mercurial).
+
+**6. What benefits come with using Git?**  
+The benefits of using Git include:
+- **Distributed System**: Every developer has a complete copy of the project history.
+- **Branching and Merging**: Git makes it easy to create branches and merge them back.
+- **Speed**: Git is fast in handling large projects and commits.
+- **Collaboration**: Multiple developers can work together efficiently.
+- **Data Integrity**: Git ensures the integrity of the data stored in the repository.
+
+**7. What is a Git repository?**  
+A Git repository (repo) is a directory or storage space where your project's files and the complete history of changes (commits) are stored. A repository can be local (on your computer) or remote (like on GitHub or GitLab).
+
+**8. How can you initialize a repository in Git?**  
+You can initialize a Git repository by navigating to your project’s directory and running the following command in your terminal:
+```bash
+git init
+```
+This command creates a new `.git` directory, which tracks changes and manages the project history.
